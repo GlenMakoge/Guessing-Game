@@ -1,0 +1,56 @@
+body{
+    background-color: grey;
+}
+
+#container{
+    text-align: center;
+    border: 5px solid black;
+    background-color: purple;
+    height: 300px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+#container:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+
+
+#userInput{
+    width: 200px;
+    height: 30px;
+    margin: 25px auto;
+    border-radius: 20px;
+}
+
+#btn{
+    border-radius: 20px;
+    height: 40px;
+    width: 60px;
+}
+
+#btn:hover{
+    background-color: purple;
+    color: #fff;
+    transition: 0.5s;
+}
+
+p{
+    font-size: larger;
+}
+
+p:hover{
+    color: #000;
+}
+
+h1:hover{
+    color: black;
+    background-color: #fff;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
